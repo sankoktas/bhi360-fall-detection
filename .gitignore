@@ -1,0 +1,15 @@
+venv/
+data/
+legacy/
+label_studio_output/
+mar_25_data/
+mar_25_data_label_studio_input/
+label_studio_input/
+.vscode/
+my_tuner_dir/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/ 
+two_stage_pipeline.py
+edit.py
