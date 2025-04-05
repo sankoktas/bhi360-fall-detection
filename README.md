@@ -30,7 +30,7 @@ Data was logged as JSON and then processed using this notebook for machine learn
 - `fall_detector.ipynb` – Main Jupyter notebook for preprocessing, training, evaluation
 - `labeled_data/raw.csv` – Raw annotations exported from Label Studio
 - `labeled_data/cleaned.csv` – Flattened per-timestep CSV with 3-class labels
-- `labeled_data/cleaned_sorted_id.csv.csv` – Final training-ready dataset with session IDs
+- `labeled_data/cleaned_sorted_id.csv` – Final training-ready dataset with session IDs
 
 ---
 
