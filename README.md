@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/new_banner.png" alt="Motion Classification Pipeline Banner" width="100%">
+  <img src="assets/banner.png" alt="Motion Classification Pipeline Banner" width="100%">
 </p>
 
 # 🧠 Fall Detection Pipeline with Sensor Data
