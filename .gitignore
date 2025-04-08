@@ -5,8 +5,9 @@ label_studio_output/
 mar_25_data/
 mar_25_data_label_studio_input/
 label_studio_input/
+exported_tasks/
+sensor_output/
 .vscode/
-my_tuner_dir/
 __pycache__/
 *.pyc
 .DS_Store
