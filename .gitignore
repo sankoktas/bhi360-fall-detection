@@ -11,6 +11,47 @@ sensor_output/
 __pycache__/
 *.pyc
 .DS_Store
-.ipynb_checkpoints/ 
+.ipynb_checkpoints/
 two_stage_pipeline.py
-edit.py 
+edit.py
+
+# Ignore all SDK files by default
+BHI360_SDK_1.1.16.1/*
+
+# Allow README.md
+!BHI360_SDK_1.1.16.1/README.md
+
+# Allow specific board files
+!BHI360_SDK_1.1.16.1/boards/
+BHI360_SDK_1.1.16.1/boards/*
+!BHI360_SDK_1.1.16.1/boards/Bosch_Shuttle3_BHI360_MyModel.cfg
+!BHI360_SDK_1.1.16.1/boards/CMakeLists.txt
+
+# Allow specific common files
+!BHI360_SDK_1.1.16.1/common/
+BHI360_SDK_1.1.16.1/common/*
+!BHI360_SDK_1.1.16.1/common/config.7189_di03_rtos_bhi360.cmake
+
+# Allow specific libs/my_classifier files
+!BHI360_SDK_1.1.16.1/libs/
+BHI360_SDK_1.1.16.1/libs/*
+!BHI360_SDK_1.1.16.1/libs/my_classifier/
+BHI360_SDK_1.1.16.1/libs/my_classifier/*
+!BHI360_SDK_1.1.16.1/libs/my_classifier/CMakeLists.txt
+!BHI360_SDK_1.1.16.1/libs/my_classifier/model.c
+!BHI360_SDK_1.1.16.1/libs/my_classifier/model.h
+
+# Allow specific drivers_custom/VirtMyClassifier files
+!BHI360_SDK_1.1.16.1/drivers_custom/
+BHI360_SDK_1.1.16.1/drivers_custom/*
+!BHI360_SDK_1.1.16.1/drivers_custom/VirtMyClassifier/
+BHI360_SDK_1.1.16.1/drivers_custom/VirtMyClassifier/*
+!BHI360_SDK_1.1.16.1/drivers_custom/VirtMyClassifier/CMakeLists.txt
+!BHI360_SDK_1.1.16.1/drivers_custom/VirtMyClassifier/VirtMyClassifier.c
+
+# Allow the generated firmware
+!BHI360_SDK_1.1.16.1/release/
+BHI360_SDK_1.1.16.1/release/*
+!BHI360_SDK_1.1.16.1/release/gccfw/
+BHI360_SDK_1.1.16.1/release/gccfw/*
+!BHI360_SDK_1.1.16.1/release/gccfw/Bosch_Shuttle3_BHI360_MyModel.fw
