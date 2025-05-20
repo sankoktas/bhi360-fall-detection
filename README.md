@@ -62,6 +62,7 @@ Use this config when importing time series data into Label Studio:
     <Channel column="gyro_z" legend="gyro_z"/>
   </TimeSeries>
 </View>
+```
 
 ---
 
